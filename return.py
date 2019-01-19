@@ -89,7 +89,7 @@ class A:
 			elif q == 9: # 9. Put character (optional) 
 				sys.stdout.write(chr(tape.get()))
 			elif q == 11: # 11. Put number 
-				sys.stdout.write(tape.get())
+				sys.stdout.write(str(tape.get()))
 			elif q == 13: # 13. Get character (optional) 
 				tape.put(getch())
 			elif q == 15: # 15. Get number 
